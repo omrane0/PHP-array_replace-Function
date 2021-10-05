@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a1=array("a"=>"red","green");
+$a2=array("a"=>"orange","b"=>"burgundy");
+print_r(array_replace($a1,$a2));
+?>
+
+</body>
+</html>

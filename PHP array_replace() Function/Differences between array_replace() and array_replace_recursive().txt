@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a1=array("a"=>array("red"),"b"=>array("green","blue"),);
+$a2=array("a"=>array("yellow"),"b"=>array("black"));
+
+$result=array_replace_recursive($a1,$a2);
+print_r($result);
+
+$result=array_replace($a1,$a2);
+print_r($result);
+?>
+
+</body>
+</html>
